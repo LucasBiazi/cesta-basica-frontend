@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import imagem_fundo from '../../assets/folha2.jpeg';
 
-export const Css_cadastros = styled.div`
+export const CssCadastros = styled.div`
     .main_div{
         display: flex;
         align-items: center;
@@ -46,20 +46,21 @@ export const Css_cadastros = styled.div`
         color: white;
         width: 90px;
         height: 20px;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        /* align-content: flex-start; */
     }
     .div_botao{
-        margin-left: 30px;
+        /* margin-left: 30px; */
         display: flex;       
         flex-direction: column;
-        /* width: inherit; */
-        height: 150px;
-        justify-content: space-evenly;
+        width: inherit;
+        height: 80px;
+        justify-content: space-between;
         align-items: center;
     }
     .botao{
         height: 28px;
-        width: 290px;
+        width: 275px;
         background-color: lightgreen;
         cursor: pointer;
     }
@@ -72,10 +73,12 @@ export const Css_cadastros = styled.div`
     input{
         text-indent: 8px;
         height: 25px;
+        /* width: inherit; */
     }
     @media only screen and (max-width: 850px) {
         .form_div{
             height: 400px;
+            width: inherit;
         }
         label{
             font-size: 20px;
@@ -85,7 +88,7 @@ export const Css_cadastros = styled.div`
             width: 200px;   
         }
         .botao{
-            width: 250px;
+            width: 300px;
             height: 32px;
         }
     }

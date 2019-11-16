@@ -87,7 +87,7 @@ export const Css_login = styled.div`
         justify-content: space-evenly;
         align-items: center;
         height: 130px;
-        width: 380px;        
+        width: 284px;        
         /* background-color: white; */
     }
     .botao{
@@ -98,7 +98,7 @@ export const Css_login = styled.div`
     }
     .botao2{
         height: 28px;
-        width: 380px;
+        width: 284px;
         background-color: lightgreen;
         cursor: pointer;    
     }
